@@ -1,10 +1,11 @@
 # API first approach
 
-## Info
+Date: 2020-06-24
 
-Date: 2022-06-24
 Author: Ilya Vorobyeu
-Status: proposed
+
+## Status
+Accepted
 
 ## Context
 
