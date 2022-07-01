@@ -95,11 +95,10 @@ To meet pricing and performance expectations calculations of the aavg data per/s
 ### Corns 
 |ElasticSearch NoSQL storage | AWS RDS Aurora MySQL DB |
 |-------------------|-----------------------------------|
-|Joining data requires duplicate de-normalized documents that make parent child relationships. It is hard and requires a lot of synchronizations
+|Joining data requires duplicate de-normalized documents that make parent child relationships. |MySQL doesn't provide good data wrangling functionalities, such as parsing JSON or XML. |
+|It is hard and requires a lot of synchronizations |MySQL may lack of dealing with "big data" functionalities. |
 Tracking errors in the data in the logs can be hard, and sometimes recurring errors blow up the error logs
-Schema changes require complete reindexing of an index | MySQL doesn't provide good data wrangling functionalities, such as parsing JSON or XML. We had to transform them outside MySQL on the web application server side using JSP.
-As we move forward to adopt more genomics information, MySQL may lack of dealing with "big data" functionalities.
-It is a freely available S/W and easy to manage budget, but there are possibilities to spend cost for additional technical support. |
+Schema changes require complete reindexing of an index | It is a freely available S/W and easy to manage budget, but there are possibilities to spend cost for additional technical support.|  
 
 
 ### Final Decision
